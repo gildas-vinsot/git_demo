@@ -1,0 +1,22 @@
+Here is a short description of the new organisation :
+
+
+zefzegzgze
+
+- server
+- player
+- common for files that are shared by server and player
+- misc for files that do not enter first three folders
+
+Those 4 folders share the same organisation :
+
+- customer for specifics customer files (it can include specific sources, doc, scripts, tools...)
+- doc for documentation 
+- tools
+- sources for code
+
+NB, all folder names should share the following naming convention : 
+- lower case with underscore to separate word.
+- for player, folders in source must have the same name like the binary generated file
+- libraries start with tc_  (exe files can also start with tc_ when they could be mismatched with OS commands)   
+ 
